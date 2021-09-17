@@ -6,6 +6,7 @@ callouts: home_callouts
 hero_link: https://forms.gle/CpxVKxoYot5v3w2m9
 hero_link_text: Apply Now!
 hero_darken: true
+show_sidebar: true
 ---
 
 
@@ -23,7 +24,7 @@ and usability recommendations.
 
 The majority of UK research relies on software, and this is especially
 true in plasma science. From first principles simulations of
-gyro-kinetics, to data analysis of solar observations, via reaction
+gyrokinetics, to data analysis of solar observations, via reaction
 networks of atmospheric plasmas, we all use research software.
 
 # How it works

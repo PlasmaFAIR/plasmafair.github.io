@@ -1,19 +1,29 @@
 title: PlasmaFAIR
 email: peter.hill@york.ac.uk
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  PlasmaFAIR is a community network of Research Software Engineers
+  working in plasma science, with a goal of improving the
+  sustainability and quality of plasma research software.
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
-
-application_form: "https://forms.gle/CpxVKxoYot5v3w2m9"
+twitter_username: zed3
+github_username:  ZedThree
 
 # Build settings
 remote_theme: chrisrhymes/bulma-clean-theme
 plugins:
   - github-pages
+
+paginate: 5
+paginate_path: "/software/page:num"
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "pages"
+    values:
+      title: <img src="../images/full_plus_small_logo.png">
+      hero_darken: true
 
 # Exclude from processing.
 # The following items will not be processed, by default.
