@@ -7,8 +7,16 @@ layout: page
 Our health-check is a lightweight review of your code and software project. This
 will give you an idea of how sustainable your software is, and if there's
 anything you can do to improve it. This _isn't_ an in-depth code review of every
-line in the codebase -- though if this is something you would like, we're happy
+line in the code-base -- though if this is something you would like, we're happy
 to discuss!
+
+This checklist is meant as a starting point for discussion, rather than an
+comprehensive assessment of your project. We will go through each item with you,
+and discuss how it applies to your specific project, what things are currently
+sustainable, and places where we think improvements could be made, if any! We'll
+then work with you to make some of those improvements to your project.
+
+See the [application process](./index.html#how-it-works) on how to get started.
 
 This checklist is based on the [review
 checklist](https://joss.readthedocs.io/en/latest/review_checklist.html) from the
