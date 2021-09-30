@@ -1,0 +1,22 @@
+---
+layout: post
+---
+
+{% if page.software_url or page.software_github %}
+<p>
+  <div class="box">
+    {% if page.software_url %}
+    <a href="{{ page.software_url }}" class="button is-link">Get {{ page.title }}
+    </a>
+    {% endif %}
+    {% if page.software_github %}
+    <a onclick="window.open('{{ page.software_github }}')" class="button is-link">
+      <span class="icon is-large"><i class="fab fa-github fa-2x"></i></span>
+      <span class="ml-2">Github</span>
+    </a>
+    {% endif %}
+  </div>
+</p>
+{% endif %}
+
+{{ content }}
