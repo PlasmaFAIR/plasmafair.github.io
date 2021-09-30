@@ -1,0 +1,12 @@
+items:
+  - title: E-Mail
+    subtitle: E-mail us to find out more about PlasmaFAIR and how you can get involved
+    call_to_action_name: E-Mail Peter
+    call_to_action_link: "mailto:peter.hill@york.ac.uk"
+    icon: fa-envelope
+  - title: GitHub
+    subtitle: Or make a GitHub issue to find out more about our health-checks
+    call_to_action_name: New GitHub Issue
+    call_to_action_link: https://github.com/PlasmaFAIR/plasmafair.github.io/issues/new/choose
+    icon: fa-github
+    icon_brand: true
