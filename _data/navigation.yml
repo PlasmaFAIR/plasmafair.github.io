@@ -1,2 +1,6 @@
 - name: Software
   link: /software/
+- name: Health-check
+  link: /healthcheck
+- name: Contact Us
+  link: /contact
