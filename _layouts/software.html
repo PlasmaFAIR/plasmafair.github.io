@@ -2,19 +2,37 @@
 layout: post
 ---
 
-{% if page.software_url or page.software_github %}
+{% if page.software %}
 <p>
-  <div class="box">
-    {% if page.software_url %}
-    <a href="{{ page.software_url }}" class="button is-link">Get {{ page.title }}
-    </a>
-    {% endif %}
-    {% if page.software_github %}
-    <a onclick="window.open('{{ page.software_github }}')" class="button is-link">
-      <span class="icon is-large"><i class="fab fa-github fa-2x"></i></span>
-      <span class="ml-2">Github</span>
-    </a>
-    {% endif %}
+  <div class="card">
+    <header class="card-header">
+      <p class="card-header-title">
+        Project info
+      </p>
+    </header>
+    <div class="field is-grouped is-grouped-multiline card-content">
+      {% if page.software.url %}
+      <div class="control">
+        <a href="{{ page.software.url }}" class="button is-link">Get {{ page.title }}</a>
+      </div>
+      {% endif %}
+      {% if page.software.github %}
+      <div class="control">
+        <a onclick="window.open('{{ page.software.github }}')" class="button is-link">
+          <span class="icon is-large"><i class="fab fa-github fa-2x"></i></span>
+          <span class="ml-2">Github</span>
+        </a>
+      </div>
+      {% endif %}
+      {% if page.software.licence %}
+      <div class="control">
+        <div class="tags has-addons">
+          <span class="tag is-dark is-large">licence</span>
+          <span class="tag is-info is-large">{{ page.software.licence }}</span>
+        </div>
+      </div>
+      {% endif %}
+    </div>
   </div>
 </p>
 {% endif %}
