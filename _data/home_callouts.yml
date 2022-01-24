@@ -1,12 +1,13 @@
 items:
   - title: Software Health-checks
-    subtitle: Professional evaluation of the sustainability of your
+    subtitle: Get a professional evaluation of the sustainability of your
               plasma software
     icon: fa-medkit
   - title: Sustainability improvements
-    subtitle: Help and development effort to improve the sustainability of
-              your software project
+    subtitle: We can help you with everything from writing automated
+              tests to improving user guides
     icon: fa-wrench
   - title: Publishing and impact
-    subtitle: Guidance on increasing the impact of your research software
+    subtitle: Guidance on increasing the impact of your research software,
+              making it more visible, and easier to use
     icon: fa-angle-double-up
