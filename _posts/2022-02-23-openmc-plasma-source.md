@@ -2,7 +2,7 @@
 title: openmc-plasma-source
 subtitle: OpenMC neutron sources for fusion applications
 author: Liam Pattinson
-tags: openmc plasma source 
+tags: openmc python
 software:
     url: https://github.com/fusion-energy/openmc-plasma-source
     github: https://github.com/fusion-energy/openmc-plasma-source
