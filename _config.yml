@@ -9,7 +9,7 @@ twitter_username: zed3
 github_username:  ZedThree
 
 # Build settings
-remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme@v0.14.0
 plugins:
   - github-pages
 
