@@ -19,7 +19,7 @@ in Python, R, Julia, C++, and Java.
 
 Following a talk at [RSECon 2022][rsecon], we became interested in the potential
 application of FDP to computational plasma physics pipelines, and offered to
-expand its capabilities to include support for Fortran -- a lanugage commonly
+expand its capabilities to include support for Fortran -- a language commonly
 used in plasma physics simulations and other high-performance computing
 applications.  Rather than reimplementing the whole API in our target language,
 as was the strategy employed for the existing supported languages, we instead
