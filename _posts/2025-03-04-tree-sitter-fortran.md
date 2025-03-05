@@ -29,7 +29,7 @@ directory with the tree-sitter grammar and display syntax errors with
 some context. This made it very easy to quickly find missing features
 and edge cases in the existing grammar.
 
-While some Fortran features were very easy to the grammar, there are a
+While some Fortran features were very easy to add to the grammar, there are a
 few things that are very tricky to parse. For example, the language
 doesn't have reserved keywords, and so it's necessary to manually
 allow clashes between the `identifier` AST node and many
