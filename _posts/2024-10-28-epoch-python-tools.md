@@ -37,7 +37,7 @@ For simplicity, `epydeck` doesn't do any verification of the blocks or
 keys, and doesn't do any parsing of expressions or units. As we're
 planning on handing off these projects to the main EPOCH developers,
 they may try to add these capabilities using the
-[EPOCpp](2023-12-19-epocpp) implementation.
+[EPOCpp](/2023/12/19/epocpp) implementation.
 
 [`sdf-xarray`](https://github.com/PlasmaFAIR/sdf-xarray) is another
 minimal package that adds an xarray backend for the
