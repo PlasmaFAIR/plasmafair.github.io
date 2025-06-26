@@ -5,7 +5,7 @@ author: Liam Pattinson
 tags: python utility data management
 software:
     github: https://github.com/mwiesenberger/simplesimdb
-    license: MIT
+    licence: MIT
     author: Matthias Wiesenberger
 layout: software
 ---

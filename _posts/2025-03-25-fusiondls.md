@@ -2,10 +2,10 @@
 title: FusionDLS
 subtitle: A Python package for simulating detachment in next-generation tokamak divertors
 author: Liam Pattinson
-tags: python tokamak detachment divertor eqdsk geqdsk
+tags: python tokamak detachment divertor eqdsk geqdsk edge SoL
 software:
     github: https://github.com/FusionDLS/FusionDLS
-    license: LGPLv3.0
+    licence: LGPL3.0
     author: Cyd Cowley, Mike Kryjak
 layout: software
 ---
