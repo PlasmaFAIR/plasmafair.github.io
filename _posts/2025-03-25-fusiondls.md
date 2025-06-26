@@ -5,7 +5,7 @@ author: Liam Pattinson
 tags: python tokamak detachment divertor eqdsk geqdsk edge SoL
 software:
     github: https://github.com/FusionDLS/FusionDLS
-    license: LGPL3.0
+    licence: LGPL3.0
     author: Cyd Cowley, Mike Kryjak
 layout: software
 ---
