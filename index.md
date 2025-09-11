@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <img src="images/full_plus_small_logo.png">
+title: <img src="images/full_plus_small_logo.png" alt="PlasmaFAIR">
 subtitle: Making Plasma Software Better
 callouts: home_callouts
 hero_link: https://forms.gle/CpxVKxoYot5v3w2m9
