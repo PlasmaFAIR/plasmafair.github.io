@@ -1,6 +1,6 @@
 ---
 layout: page
-title: <img src="images/full_plus_small_logo.png">
+title: <img src="images/full_plus_small_logo.png" alt="PlasmaFAIR">
 subtitle: Making Plasma Software Better
 callouts: home_callouts
 hero_link: https://forms.gle/CpxVKxoYot5v3w2m9
@@ -10,7 +10,7 @@ show_sidebar: true
 ---
 
 
-# Supporting Plasma Software in the UK
+## Supporting Plasma Software in the UK
 
 PlasmaFAIR is a new community network of RSEs working in plasma
 science. Our goal is to improve the quality and sustainability of
@@ -27,7 +27,7 @@ continue to be used for research well into the future. Typically, we
 offer one-to-two weeks of effort, and don't offer to implement major
 features.
 
-## Software is Important
+### Software is Important
 
 The [majority of UK research relies on
 software](https://software.ac.uk/resources/approaches-software-sustainability),
@@ -46,7 +46,7 @@ host of other applications from space plasmas to chocolate
 bubbles. Those impacts might never have happened if BOUT++ was closed
 and inaccessible to other researchers.
 
-## Data is Important
+### Data is Important
 
 Many plasma simulations make use of supercomputers, sometimes using
 more than ten thousand CPU-hours per run. The data generated from such
@@ -56,7 +56,7 @@ currently only often used once. Publishing our simulation data would
 allow other researchers to build upon our work, getting secondary use
 out of our expensively generated datasets.
 
-## The FAIR principles
+### The FAIR principles
 
 We at PlasmaFAIR think that both software and data deserves to be FAIR:
 
@@ -71,14 +71,14 @@ We at PlasmaFAIR think that both software and data deserves to be FAIR:
 You can find out more about the FAIR principles for data at [Go
 FAIR](https://www.go-fair.org/fair-principles/)[^1]
 
-# What Are We Doing About It
+## What Are We Doing About It
 
 We think making software and data FAIR is so important that we want to
 help you improve the FAIRness of your project, whether it's big or
 small, ancient Fortran or bleeding-edge Julia, student code or massive
 team; get in touch and find out how we can help!
 
-## How it works {#how-it-works}
+### How it works {#how-it-works}
 
 0. Fill in an [application form]({{ page.hero_link }})!
 1. An RSE from PlasmaFAIR will have an initial
@@ -99,14 +99,14 @@ team; get in touch and find out how we can help!
    directory of plasma research software.
 
 
-## Get Involved
+### Get Involved
 
 Do you write research software in plasma science? Join PlasmaFAIR and
 help us improve the plasma software ecosystem, or complete
 health-checks for your own software and tell us about it (coming
 soon).
 
-# Funding and Support
+## Funding and Support
 
 We receive funding from Peter Hill's Fellowship, EPSRC Grant
 EP/V051822/1 "Embedding FAIRness in Plasma Science"
